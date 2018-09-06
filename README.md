@@ -35,3 +35,6 @@ Component Key
 
 
 Component History
+
+
+^^^ This is what I wrote before getting a clearer direction in lab. Ended up making the display and history into one section.
