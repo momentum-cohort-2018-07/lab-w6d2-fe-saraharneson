@@ -1,28 +1,124 @@
 .App {
+  max-width: 310px;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
+/* .App-header {
   background-color: #222;
   height: 150px;
   padding: 20px;
   color: white;
-}
+} */
 
 .App-title {
-  font-size: 1.5em;
+  font-size: 1.5rem;
+  margin: 15px 0;
 }
 
 .App-intro {
   font-size: large;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+* {
+  /* box-sizing: border-box; */
+  margin: 0;
+  padding: 0;
 }
+
+body {
+  margin: 0 auto;
+  /* max-width: 800px; */
+  font-family: 'Helvetica', sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  background-color: white;
+}
+
+.container {
+  max-width: 100%;
+  width: 400px;
+  /* background-color: #64B254; */
+  margin: 0 auto;
+}
+
+.row {
+  /* margin-top: 1%; */
+  /* display: block; */
+  width: 308px;
+  height: 77px;
+  float: left;
+  align-content: center;
+  margin: 0 auto;
+}
+
+.button {
+  width: 75px;
+  height: 75px;
+  padding: 20px;
+  background-color: #64B254;
+  border: 1px white solid;
+  border-radius: 5px;
+  font-size: 1.5em;
+  color: white;
+  margin: 1px;
+}
+
+#clear {
+  float: left;
+  margin-right: 1px;
+  display: inline-block;
+}
+
+.op {
+  width: 75px;
+  height: 75px;
+  /* padding: 25px;  */
+  background-color: #64b2549a;
+  color: black;
+  border-top: 1px white solid;
+  border-radius: 5px;
+  font-size: 1.5em;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 2px;
+}
+
+#display {
+  width: 225px;
+  height: 73px;
+  display: inline-block;
+  background-color: #ff976b;
+  border-top: 1px white solid;
+  border-radius: 5px;
+  color: black;
+  font-size: 2.75rem;
+  font-family: "Helvetica", sans serif;
+  /* font-weight: bold; */
+  vertical-align: 14px;
+  text-align: right;
+  text-combine-upright: 
+  #ffa699;
+}
+
+#historySection {
+  margin: 20px 0 10px 0;
+  text-size: 1rem;
+}
+
+#historySection h3 {
+  text-size: 1rem;
+}
+
+#historyTitle {
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+
+/* background-color: #64b2549a; */
+
+
+
+/* 
+#64B254 darker
+#84C179 lighter */

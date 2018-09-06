@@ -15,3 +15,23 @@ Before you build out any code, take time to plan your calculator. You should thi
 ## TODO: calculator plan
 
 **Write your components with their props and state here.**
+
+Narrowing down "what is a state" (based on the React doc "Thinking in React"):
+
+  - what will change:
+      - the display
+      - the history
+
+Step 1: Break The UI Into A Component Hierarchy
+
+
+Component Calculator
+
+
+Component Display
+
+
+Component Key
+
+
+Component History
