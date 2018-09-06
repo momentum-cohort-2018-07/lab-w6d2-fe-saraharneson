@@ -46,7 +46,7 @@ class App extends React.Component {
           <button className='button' id='one' onClick={() => this.setState({ display: this.state.display + '1' })}>1</button>
           <button className='button' id='two' onClick={() => this.setState({ display: this.state.display + '2' })}>2</button>
           <button className='button' id='three' onClick={() => this.setState({ display: this.state.display + '3' })}>3</button>
-          <button className='button' id='subtract' onClick={() => this.setState({ display: this.state.display + '-' })}>/</button>
+          <button className='button' id='subtract' onClick={() => this.setState({ display: this.state.display + '-' })}>-</button>
         </div>
 
         <div className='row'>
@@ -56,7 +56,7 @@ class App extends React.Component {
           <button className='button' id='add' onClick={() => this.setState({ display: this.state.display + '+' })}>+</button>
         </div>
         <div id='historySection'>
-          <h2 id='historyTitle'>Past Calculations</h2>
+          <h3 id='historyTitle'>Past Calculations</h3>
           <div id='history'>{this.state.history.map((h, idx) => <div key={idx}>{h}</div>)}</div>
         </div>
       </div>

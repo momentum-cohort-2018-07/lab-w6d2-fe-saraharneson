@@ -16,25 +16,21 @@ Before you build out any code, take time to plan your calculator. You should thi
 
 **Write your components with their props and state here.**
 
-Narrowing down "what is a state" (based on the React doc "Thinking in React"):
+      Narrowing down "what is a state" (based on the React doc "Thinking in React"):
 
-  - what will change:
-      - the display
-      - the history
+        - what will change:
+            - the display
+            - the history
 
-Step 1: Break The UI Into A Component Hierarchy
-
+      Step 1: Break The UI Into A Component Hierarchy
 
 Component Calculator
 
-
 Component Display
 
-
 Component Key
-
 
 Component History
 
 
-^^^ This is what I wrote before getting a clearer direction in lab. Ended up making the display and history into one section.
+^^^ This is what I wrote before getting some direction in lab. Ended up having only one .js file, and as for functions, the display and history are in one section.

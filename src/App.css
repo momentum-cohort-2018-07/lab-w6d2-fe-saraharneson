@@ -1,5 +1,5 @@
 .App {
-  max-width: 310px;
+  max-width: 305px;
   text-align: center;
 }
 
@@ -66,52 +66,37 @@ body {
 #clear {
   float: left;
   margin-right: 1px;
-  display: inline-block;
-}
-
-.op {
-  width: 75px;
-  height: 75px;
-  /* padding: 25px;  */
-  background-color: #64b2549a;
-  color: black;
-  border-top: 1px white solid;
-  border-radius: 5px;
-  font-size: 1.5em;
-  text-align: center;
-  vertical-align: middle;
-  cursor: pointer;
-  margin-right: 2px;
+  vertical-align: top;
+  border: 1px white solid;
 }
 
 #display {
   width: 225px;
-  height: 73px;
+  height: 75px;
   display: inline-block;
-  background-color: #ff976b;
-  border-top: 1px white solid;
+  background-color: #64b2549a;
+  border: 1px white solid;
   border-radius: 5px;
   color: black;
   font-size: 2.75rem;
   font-family: "Helvetica", sans serif;
-  /* font-weight: bold; */
-  vertical-align: 14px;
+  vertical-align: top;
   text-align: right;
-  text-combine-upright: 
-  #ffa699;
 }
 
 #historySection {
-  margin: 20px 0 10px 0;
-  text-size: 1rem;
-}
+  /* display: block; */
+  float: left;
+  margin: 2px 0;
+  font-size: 1rem;
+  text-align: center;
+  width: 305px;
+  background-color: aliceblue;
 
-#historySection h3 {
-  text-size: 1rem;
 }
 
 #historyTitle {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   margin: 20px 0;
 }
 
